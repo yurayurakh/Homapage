@@ -1,0 +1,393 @@
+.wrapper {
+	padding:0;
+	margin:0;
+	width:100%;
+	height:100%;
+	background:$bg-color;
+	.cook{
+		height:80px;
+		background-color:$text_color;
+		margin:0 auto;
+		width:1280px;
+		p{
+			margin-left:40px;
+			float:left;
+			font:14px $font_cabin;
+			color:$bg_color;
+			margin-top:30px;
+			margin-bottom:30px;
+		}
+		.btn-cook{
+			float:right;
+			margin-right:70px;
+			a {
+				text-decoration: none;
+				text-transform: uppercase;
+				font: 14px $font_cabin_bold;
+				color: $bg_color;
+				line-height: 18px;
+				margin-left: 10px;
+				padding: 10px 16px 10px 16px;
+				border: 2px solid $bg_color;
+			}
+			&:after {
+				content:"";
+				display:table;
+				clear:both;
+			}
+		}
+		&:after {
+			content:"";
+			display:table;
+			clear:both;
+		}
+	}
+	.top-line {
+		margin:0 auto;
+		width: 1280px;
+		height: 3px;
+		background-color: white;
+		.line{
+			height: 3px;
+			float:left;
+			display:block;
+			width: 25%;
+		}
+		.l1 {
+			background-color: #dc3131;
+		}
+		.l2 {
+			background-color: #ffb400;
+		}
+		.l3 {
+			background-color: #009cff;
+		}
+		.l4 {
+			background-color: #b926f0;
+		}
+	}
+	.main {
+		padding:0;
+		margin:0 auto;
+		height:100%;
+		width:1280px;
+		position:relative;
+	}
+ 	.slider{
+	margin:0 auto;
+	height:521px;
+	max-width:100%;
+	background:url(../img/slider1.png) no-repeat;
+		.title-slider {
+		display:inline-block;
+		position:relative;
+		top:155px;
+		left:190px;
+		white-space: pre-line;
+		font:30px $font_cabin_bold;
+		color:$bg_color;
+		line-height:40px;
+		span {
+			color:$green_color;
+			}
+		}
+		.search {
+			width:602px;
+			display:inline-block;
+			top:195px;
+			left:334px;
+			position:relative;
+			border:5px solid rgba(0,0,0,.5);
+			#sr {
+				width:540px;
+				font:$font_size $font_cabin_bold;
+				color:$text_color;
+				line-height:26px;
+				padding:11px 0 11px 10px;
+				background:$bg_color;
+				border:1px solid $bg_color;
+			}
+			#loope {
+				position:absolute;
+				left:544px;
+				top:0;
+			}
+		}
+		.slid-check {
+			border:5px solid rgba(0,0,0,0);
+			background:rgba(0,0,0,.5);
+			font:14px $font_cabin;
+			color:$bg_color;
+			position:relative;
+			top:239px;
+			right:282px;
+			padding-right:3px;
+		}
+		.slid-link{
+			position:relative;
+			top:238px;
+			left:89px;
+			a{
+				text-decoration:none;
+				font:14px $font_cabin;
+				color:$bg_color;
+				img{
+					padding-right:5px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width:480px) {
+	.wrapper {
+		.cook {
+			height:130px;
+			margin:0 auto;
+			width:100%;
+			p {
+				margin-left:3%;
+				margin-top:0;
+				margin-bottom:15px;
+				padding-top:10px;
+				float:none;
+			}
+			.btn-cook{
+				margin-right:0;
+				float:none;
+				margin-left:10%;
+				p {
+					margin-bottom:10px;
+					display:inline-block;
+					a {
+						background:#4f4f4f;
+						border:2px solid #4f4f4f;
+					}
+				}
+			}
+		}
+		.top-line {
+			margin: 0;
+			width: 100%;
+		}
+		.main {
+			width:100%;
+		}
+		.slider {
+			height:125px;
+			.title-slider{
+				display:none;
+			}
+			.search{
+				width:90%;
+				margin-left:4%;
+				top:30px;
+				left:0;
+				#sr{
+					float: left;
+					width:86%;
+					margin:0 auto;
+					font-size:13px;
+					position: absolute;
+				}
+				#loope {
+					float: right;
+					position:relative;
+					left: 0;
+				}
+			}
+			.slid-check {
+				top:30px;
+				left:4%;
+				padding-right:3px;
+			}
+			.slid-link{
+				position:relative;
+				top:33px;
+				left:24%;
+				a{
+					text-decoration:none;
+					font:14px $font_cabin;
+					color:$bg_color;
+					img{
+						padding-right:5px;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width:481px) and (max-width:960px) {
+	.wrapper {
+		.cook {
+			height:130px;
+			margin:0 auto;
+			width:100%;
+			p {
+				margin-left:3%;
+				margin-top:0;
+				margin-bottom:15px;
+				padding-top:10px;
+				float:none;
+			}
+			.btn-cook{
+				margin-right:0;
+				float:none;
+				margin-left:10%;
+				p {
+					margin-bottom:10px;
+					display:inline-block;
+					a {
+						background:#4f4f4f;
+						border:2px solid #4f4f4f;
+					}
+				}
+			}
+		}
+		.top-line {
+			margin: 0;
+			width: 100%;
+		}
+		.main {
+			width:100%;
+		}
+		.slider {
+			height:125px;
+			.title-slider{
+				display:none;
+			}
+			.search{
+				width:90%;
+				margin-left:4%;
+				top:30px;
+				left:0;
+				#sr{
+					float: left;
+					width:93%;
+					margin:0 auto;
+					font-size:13px;
+					position: absolute;
+				}
+				#loope {
+					float: right;
+					position:relative;
+					left: 0;
+				}
+			}
+			.slid-check {
+				position: relative;
+				top:32px;
+				left:4%;
+				padding-right:3px;
+				input{
+					position: absolute;
+					float: left;
+				}
+				span{
+					margin-left: 4%;
+				}
+			}
+			.slid-link{
+				position:relative;
+				top:33px;
+				left:50%;
+				a{
+					text-decoration:none;
+					font:14px $font_cabin;
+					color:$bg_color;
+					img{
+						padding-right:5px;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width:961px) and (max-width:1200px) {
+	.wrapper {
+		.cook {
+			height:130px;
+			margin:0 auto;
+			width:100%;
+			p {
+				margin-left:3%;
+				margin-top:0;
+				margin-bottom:15px;
+				padding-top:10px;
+				float:none;
+			}
+			.btn-cook{
+				margin-right:0;
+				float:none;
+				margin-left:10%;
+				p {
+					margin-bottom:10px;
+					display:inline-block;
+					a {
+						background:#4f4f4f;
+						border:2px solid #4f4f4f;
+					}
+				}
+			}
+		}
+		.top-line {
+			margin: 0;
+			width: 100%;
+		}
+		.main {
+			width:100%;
+		}
+		.slider {
+			height:125px;
+			.title-slider{
+				display:none;
+			}
+			.search{
+				width:90%;
+				margin-left:4%;
+				top:30px;
+				left:0;
+				#sr{
+					float: left;
+					width:94%;
+					margin:0 auto;
+					font-size:13px;
+					position: absolute;
+				}
+				#loope {
+					float: right;
+					position:relative;
+					left: 0;
+				}
+			}
+			.slid-check {
+				position: relative;
+				top:32px;
+				left:4%;
+				padding-right:3px;
+				input{
+					position: absolute;
+					float: left;
+				}
+				span{
+					margin-left: 4%;
+				}
+			}
+			.slid-link{
+				position:relative;
+				top:33px;
+				left:50%;
+				a{
+					text-decoration:none;
+					font:14px $font_cabin;
+					color:$bg_color;
+					img{
+						padding-right:5px;
+					}
+				}
+			}
+		}
+	}
+}
+
+

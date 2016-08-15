@@ -1,0 +1,60 @@
+$bg_color:#ffffff;
+$green_color:#77c127;
+$red_color:#eb173d;
+$text_color:#606060;
+$line_color:#e2e2e2;
+$footer_right_sidebar_bg:#eaede8;
+$font_cabin:Cabin;
+$font_cabin_bold:Cabin-Bold;
+$font_cabin_semibold:Cabin-SemiBold;
+$font_family_italic:Cabin-Italic;
+$font_roboto_light:Roboto-Light;
+$font_roboto_light_italic:Roboto-LightItalic;
+$font_roboto_medium:Roboto-Medium;
+$font_sourceSansPro_semiBold:SourceSansPro-Semibold;
+$font_size:16px;
+$width_content:1200px;
+$h3_text_color:#505050;
+$input_line_color:#cccccc;
+$reas_margin_left:110px;
+
+@font-face {
+  font-family: Cabin;
+  src: url(../fonts/cabin/Cabin-Regular.otf);
+  font-weight:normal;
+}
+
+@font-face {
+  font-family: Cabin-Italic;
+  src: url(../fonts/cabin/Cabin-Italic.otf);
+  font-weight:normal;
+}
+
+@font-face {
+  font-family: Cabin-Bold;
+  src: url(../fonts/cabin/Cabin-Bold.otf);
+}
+@font-face {
+  font-family: Cabin-SemiBold;
+  src: url(../fonts/cabin/Cabin-SemiBold.otf);
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: Roboto-LightItalic;
+  src: url(../fonts/roboto/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../fonts/roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family:SourceSansPro-Semibold;
+  src: url(../fonts/source-sans-pro/SourceSansPro-Semibold.ttf);
+}

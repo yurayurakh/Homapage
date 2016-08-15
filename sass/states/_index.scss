@@ -1,0 +1,36 @@
+.wrapper .cook .btn-cook{
+  a:hover  {
+    color: $text_color;
+    background: $bg_color;
+  }
+}
+.zone .push .zone-text a:hover {
+  color:$bg_color;
+  background: $green_color;
+}
+.mosaique{
+  li:hover{
+    background: url(../img/red-arrow.png) no-repeat;
+    background-position:50% 80%;
+    .f1{
+      color:$bg_color;
+      border-bottom:2px solid #eb173d;
+    }
+    .f2{
+      color:$bg_color;
+      border-bottom:2px solid #eb173d;
+    }
+    .f3{
+      color:$bg_color;
+      border-bottom:2px solid #eb173d;
+    }
+    .f4{
+      color:$bg_color;
+      border-bottom:2px solid #eb173d;
+    }
+    a:hover {
+      color:#ffffff;
+      background-color:#eb173d;
+    }
+  }
+}
